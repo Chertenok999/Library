@@ -1,0 +1,813 @@
+body {
+  width: 1440px;
+  margin: auto;
+  padding: auto;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  height: 90px;
+  background-color: #0c0c0e;
+}
+h1 {
+  color: #fff;
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 166.667% */
+  letter-spacing: 0.6px;
+  width: 294px;
+  height: 50px;
+  margin: 20px 1126px 20px 20px;
+}
+
+nav {
+  width: 584px;
+  height: 50px;
+  margin: 20px 88px 20px 768px;
+  position: relative;
+  bottom: 70px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  display: inline-block;
+}
+li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 250% */
+  list-style-type: none;
+  cursor: pointer;
+}
+li a:hover {
+  background-color: #bb945f;
+  text-decoration: underline;
+}
+.profile {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  margin: 31px 20px 31px 1392px;
+  position: relative;
+  bottom: 140px;
+}
+
+.overlay {
+  height: 300px;
+  flex-shrink: 0;
+  background: linear-gradient(
+    180deg,
+    #0c0c0e 0%,
+    #0c0c0e 0.01%,
+    rgba(18, 18, 21, 0.1) 100%
+  );
+}
+.welcome {
+  height: 600px;
+  background: url(books.jpg), lightgray 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.Brooklyn {
+  width: 520px;
+  height: 150px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 125% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background-color: #0c0c0e;
+}
+.welcome-bg {
+  display: flex;
+  width: 600px;
+  height: 220px;
+  margin: -80px 880px 160px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: #0c0c0e;
+}
+.about-main {
+  height: 837px;
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  color: #0c0c0e;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 100% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0px 0px 0px;
+}
+.line {
+  width: 50px;
+  height: 1px;
+  flex-shrink: 0;
+  background: #0c0c0e;
+  text-align: center;
+  margin: 20px 695px;
+}
+.theBrooklyne {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.img {
+  width: 1440px;
+  height: 837px;
+  position: relative;
+
+  padding: 0px 20px;
+}
+.img img {
+  width: 450px;
+  height: 560px;
+  flex-shrink: 0;
+}
+.centr-img {
+  padding: 0px 25px 0px 25px;
+}
+.carousel {
+  width: 68px;
+  height: 16px;
+  flex-shrink: 0;
+  margin: auto 686px 40px 686px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.first {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background-color: #bb945f;
+}
+.second {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background-color: #0c0c0e;
+}
+.third {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background-color: #0c0c0e;
+}
+.pointer {
+  height: 26px;
+  width: 26px;
+  cursor: pointer;
+}
+.favorites-main {
+  width: 1440px;
+  height: 1439px;
+  display: flex;
+  flex-direction: column;
+}
+.pick {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 40px 1186px 40px 20px;
+  padding: 0;
+}
+.seasons-labels {
+  margin: 0 720px 0 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.seasons-group {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.seasons {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+}
+.circl {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  stroke-width: 2px;
+  stroke: #000;
+  flex-shrink: 0;
+  border: 2px solid;
+}
+.radio {
+  accent-color: #000000;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  border: 2px solid #000;
+}
+
+.pointer-2 {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+.bg-description {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+.description-bg {
+  width: 590px;
+  height: 555px;
+  margin-bottom: 40px;
+}
+.description {
+  width: 550px;
+  height: 555px;
+  flex-shrink: 0;
+  border: 1px solid #000;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.staff {
+  color: #000;
+  font-family: Forum;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.name {
+  height: 80px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 0;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+.book-title {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 266.667% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.author {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.contents {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 266.667% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  width: 355px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.buy,
+.own {
+  width: 75px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 1px solid #0c0c0e;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  vertical-align: bottom;
+}
+.buy:hover {
+  width: 75px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 1px solid #bb945f;
+  background: #bb945f;
+}
+.buy {
+  color: #0c0c0e;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+.own {
+  color: #bb945f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+.book {
+  width: 200px;
+  height: 300px;
+  flex-shrink: 0;
+  background: lightgray 50% / cover no-repeat;
+  position: relative;
+  bottom: 300px;
+  left: 390px;
+}
+.coffee-shop {
+  height: 841px;
+  display: flex;
+  flex-direction: column;
+}
+.shop {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 120px;
+}
+.coffeeshop-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.coffee-tea {
+  width: 482px;
+  height: 520px;
+  margin-right: 20px;
+  margin-left: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.desserts {
+  margin-right: 20px;
+  display: flex;
+  width: 482px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.menu-coffee {
+  color: #bb945f;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 100% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.coffee-menu {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.drinks {
+  width: 200px;
+  height: 40px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.cakes {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.line-2 {
+  width: 100px;
+  height: 1px;
+  background: #bb945f;
+  margin-left: 60px;
+}
+.price {
+  color: #000;
+  font-family: Forum;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-left: 60px;
+}
+.our-contacts {
+  height: 575px;
+}
+.contacts-ul {
+  margin-right: 201px;
+}
+.contactsdiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+.map {
+  width: 696px;
+  height: 414px;
+  background: lightgray 50% / cover no-repeat;
+}
+.n {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.b1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 40px;
+}
+.b2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-top: 40px;
+}
+.n a {
+  color: #000000;
+  text-decoration: none;
+}
+.digital {
+  height: 614px;
+}
+.cards-library {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 41px;
+}
+.card-form {
+  display: flex;
+  flex-direction: column;
+}
+.card-bg {
+  width: 600px;
+  height: 386px;
+  flex-shrink: 0;
+  border: 3px solid #bb945f;
+  background: #fff;
+}
+.title-form {
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  margin-bottom: 30px;
+}
+.card-bg {
+  width: 600px;
+  height: 386px;
+  flex-shrink: 0;
+  border: 3px solid #bb945f;
+  background: #fff;
+}
+.gold-bg {
+  width: 560px;
+  height: 272px;
+  flex-shrink: 0;
+  background: #bb945f;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.readers-name,
+.namber {
+  width: 520px;
+  height: 66px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  background: #fff;
+}
+::placeholder {
+  color: #8e8e8e;
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 166.667% */
+  letter-spacing: 0.6px;
+  height: 50px;
+  padding-left: 20px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+.namber {
+  margin-bottom: 20px;
+}
+.check {
+  width: 242px;
+  height: 44px;
+  margin: 0px 179px 30px 179px;
+  border-radius: 2px;
+  border: 1px solid #0c0c0e;
+  color: #0c0c0e;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+.name-form {
+  width: 294px;
+  height: 50px;
+  color: #000;
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 166.667% */
+  letter-spacing: 0.6px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.card-text {
+  width: 456px;
+  margin-right: 20px;
+}
+.title-card {
+  color: #000;
+  text-align: center;
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-align: right;
+}
+.text {
+  color: #000;
+  text-align: right;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 0.4px;
+  text-align: right;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.forcard {
+  width: 75px;
+  height: 30px;
+  margin-left: 20px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 1px solid #0c0c0e;
+  color: #0c0c0e;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+.forcard:hover {
+  background: #bb945f;
+}
+.check:hover {
+  background: #bb945f;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+footer {
+  height: 250px;
+  background-color: #0c0c0e;
+}
+.frame5 {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 20px 0px 20px;
+}
+.address {
+  width: 229px;
+  color: #ffffff;
+}
+.address a {
+  color: #fff;
+  text-decoration: none;
+}
+.moon {
+  width: 149px;
+  text-align: right;
+  color: #ffffff;
+}
+.frame4 {
+  margin: 0px 21px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+a .net {
+  color: F5EFDB;
+  text-decoration: none;
+}
+.net {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  margin-right: 15px;
+  color: F5EFDB;
+}
+.line-3 {
+  width: 1400px;
+  height: 1px;
+  text-align: center;
+  background: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.frame2 {
+  margin-bottom: 44px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 44px;
+  height: 22px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.yer {
+  width: 56px;
+  height: 20px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 100% */
+  letter-spacing: 2px;
+}
+.school {
+  height: 22px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 100% */
+  letter-spacing: 2px;
+}
+.me {
+  width: 113px;
+  height: 22px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+}
+.school a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.me a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
